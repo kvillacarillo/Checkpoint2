@@ -34,7 +34,7 @@ namespace Checkpoint2
             string input;
             try
             {
-                Console.WriteLine("Enter the " + inputName + $"[TYPE] <{typeof(T).Name}>");
+                Console.WriteLine("Enter the " + inputName + $" [TYPE] <{typeof(T).Name}>");
                 input = Console.ReadLine() ?? "";
 
                 if (string.IsNullOrEmpty(input))
